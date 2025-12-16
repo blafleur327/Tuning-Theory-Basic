@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JI-Iteration</title>
+    <script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.0/dist/svg.min.js"></script>
+    <script type="text/javascript" src="act.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="inputs">
+        <h1>Just-Intonation Commas</h1>
+        <h4>This calculator illustrates commas created by recursively applying any given JI ratio.</h4>
+        <input type="text" placeholder="Iterations:" id="iterations">
+        <input type="text" placeholder="Ratio:" id="ratio">
+    </div>
+    <div class="box">
+        <div id="drawing"></div>
+        <div id="table">
+            <div class="label">
+                <div>Iterations:</div>
+                <div>Cents from 0:</div>
+                <div>Cents from 12-EDO:</div>
+            </div>
+            <div id="mini"></div>
+            <!-- <div id="oct"></div> -->
+        </div>
+    </div>
+</body>
+</html>
